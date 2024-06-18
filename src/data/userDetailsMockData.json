@@ -1,0 +1,42 @@
+{
+  "createdAt": "2065-07-14T09:22:13.631Z",
+  "orgName": "voluptate-ipsum-laborum",
+  "userName": "Jayden.Barton",
+  "email": "Phoenix.Moore21@yahoo.com",
+  "phoneNumber": "(689) 457-0894 x79123",
+  "lastActiveDate": "2084-11-15T17:05:28.742Z",
+  "profile": {
+    "firstName": "Tyson",
+    "lastName": "Langosh",
+    "phoneNumber": "978-352-1905",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/QmbduDuhfKhrLXkVixi7E67LhCzZUz6pnFt7AJBiyvHyz/avatar/329.jpg",
+    "gender": "Female",
+    "bvn": "102498675",
+    "address": "Collier Shore",
+    "currency": "USD"
+  },
+  "guarantor": {
+    "firstName": "Alexis",
+    "lastName": "Schaden",
+    "phoneNumber": "1-352-876-5489 x60481",
+    "gender": "Female",
+    "address": "Kuhic Plains"
+  },
+  "accountBalance": "752.32",
+  "accountNumber": "PJYBNAX8",
+  "socials": {
+    "facebook": "@bankxyz",
+    "instagram": "@bankxyz",
+    "twitter": "@bankxyz"
+  },
+  "education": {
+    "level": "Msc",
+    "employmentStatus": "Unemployed",
+    "sector": "Healthcare",
+    "duration": "3 Years",
+    "officeEmail": "Kristofer6@outlook.com",
+    "monthlyIncome": ["342.58", "310.94"],
+    "loanRepayment": "298.23"
+  },
+  "id": "9"
+}

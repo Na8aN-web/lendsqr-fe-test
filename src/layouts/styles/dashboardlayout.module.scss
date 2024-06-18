@@ -1,0 +1,18 @@
+@use "../../styles/global" as g;
+
+.container {
+  position: relative;
+  margin: 0 auto;
+
+  main {
+    display: flex;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: calc(100vh - 100px);
+
+    @include g.mozilla-scrollbar;
+    @include g.custom-scrollbar;
+  }
+}

@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Avenir-bold;
+  src: url("../assets/fonts/Avenir-Bold.otf");
+}
+@font-face {
+  font-family: Avenir-italic;
+  src: url("../assets/fonts/Avenir-It.otf");
+}
+@font-face {
+  font-family: Avenir-regular;
+  src: url("../assets/fonts/Avenir-Regular.otf");
+}
+
+$work-sans: "Work Sans", sans-serif;
+$avenir-regular: Avenir-regular;
+$avenir-italic: Avenir-italic;
+$avenir-bold: Avenir-bold;
+$primary-text-color: #213f7d;
+$primary-text-color-light: rgba(#213f7d, 0.4);
+$secondary-text-color: #545f7d;
+$tertiary-text-color: #39cdcc;
+$red-text-color: #e4033b;
+$active-nav-bg: rgba(#39cdcc, 0.06);
+$primary-hover-bg: rgba(#39cdcc, 0.06);
+$secondary-hover-bg: rgba(#545f7d, 0.06);
+$dashboard-bg: #fbfbfb;
+$white: #ffffff;
+$black: #000000;
+
+@mixin mozilla-scrollbar {
+  scrollbar-color: #213F7D;
+  scrollbar-width: thin;
+}
+@mixin custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    width: 6px;
+    height: 6px;
+    background-color: #213F7D;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-corner {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 6px;
+    height: 6px;
+    background-color: #213F7D;
+    border-radius: 4px;
+  }
+}
+@mixin tabs-scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    width: 3px;
+    height: 3px;
+    margin-top: 3px;
+    background: #213F7D;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-corner {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    width: 3px;
+    height: 3px;
+    background: #213F7D;
+    border-radius: 4px;
+  }
+}
